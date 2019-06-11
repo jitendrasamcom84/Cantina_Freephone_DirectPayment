@@ -1,0 +1,6 @@
+framework module Pods_Cantina {
+  umbrella header "Pods-Cantina-umbrella.h"
+
+  export *
+  module * { export * }
+}

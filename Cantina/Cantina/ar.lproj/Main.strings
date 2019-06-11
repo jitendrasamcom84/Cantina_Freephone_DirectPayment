@@ -1,0 +1,456 @@
+
+/* Class = "UILabel"; text = "הקלד סכום"; ObjectID = "02C-3N-Fb0"; */
+"02C-3N-Fb0.text" = "הקלד סכום";
+
+/* Class = "UILabel"; text = "היסטורית\nהפקדות"; ObjectID = "069-aE-yAi"; */
+"069-aE-yAi.text" = "היסטורית\nהפקדות";
+
+/* Class = "UILabel"; text = "תודה!"; ObjectID = "1HA-la-MD9"; */
+"1HA-la-MD9.text" = "תודה!";
+
+/* Class = "UILabel"; text = "הרשמה"; ObjectID = "1hz-Kk-4sd"; */
+"1hz-Kk-4sd.text" = "הרשמה";
+
+/* Class = "UITextField"; placeholder = "קוד זיהוי"; ObjectID = "1kX-Sx-BrE"; */
+"1kX-Sx-BrE.placeholder" = "קוד זיהוי";
+
+/* Class = "UILabel"; text = "קראתי את התקנון והנני מאשר/ת\nאת תנאי השימוש"; ObjectID = "1sG-8c-cVJ"; */
+"1sG-8c-cVJ.text" = "קראתי את התקנון והנני מאשר/ת\nאת תנאי השימוש";
+
+/* Class = "UILabel"; text = "סכום ההפקדה: ₪537 "; ObjectID = "1sY-NJ-urc"; */
+"1sY-NJ-urc.text" = "סכום ההפקדה: ₪537 ";
+
+/* Class = "UITextField"; placeholder = "סיסמא חדשה"; ObjectID = "23X-r0-ZTH"; */
+"23X-r0-ZTH.placeholder" = "סיסמא חדשה";
+
+/* Class = "UILabel"; text = "קנטינה"; ObjectID = "2Ak-Si-fbx"; */
+"2Ak-Si-fbx.text" = "קנטינה";
+
+/* Class = "UILabel"; text = "הפקדה\nלקנטינה"; ObjectID = "2GY-dv-wu9"; */
+"2GY-dv-wu9.text" = "הפקדה\nלקנטינה";
+
+/* Class = "UILabel"; text = "פרטי הנמען"; ObjectID = "2u6-6w-A5C"; */
+"2u6-6w-A5C.text" = "פרטי הנמען";
+
+/* Class = "UILabel"; text = "בוחרים למי\nלהפקיד"; ObjectID = "2u8-xc-8bL"; */
+"2u8-xc-8bL.text" = "בוחרים למי\nלהפקיד";
+
+/* Class = "UILabel"; text = "מעבירים את\nהכסף"; ObjectID = "3e2-uR-3kq"; */
+"3e2-uR-3kq.text" = "מעבירים את\nהכסף";
+
+/* Class = "UILabel"; text = "סכום ההפקדה: ₪537 "; ObjectID = "4GS-hD-Xtu"; */
+"4GS-hD-Xtu.text" = "סכום ההפקדה: ₪537 ";
+
+/* Class = "UIButton"; normalTitle = "לא קיבלת קוד? שלח שוב"; ObjectID = "4bu-N1-eWg"; */
+"4bu-N1-eWg.normalTitle" = "לא קיבלת קוד? שלח שוב";
+
+/* Class = "UILabel"; text = "קנטינה"; ObjectID = "4eO-wF-R2v"; */
+"4eO-wF-R2v.text" = "קנטינה";
+
+/* Class = "UIButton"; normalTitle = "נסה שוב"; ObjectID = "4r4-sr-3c3"; */
+"4r4-sr-3c3.normalTitle" = "נסה שוב";
+
+/* Class = "UILabel"; text = "דרך שלמה 4, רחובות"; ObjectID = "5Gu-M0-lmk"; */
+"5Gu-M0-lmk.text" = "דרך שלמה 4, רחובות";
+
+/* Class = "UILabel"; text = "סכום ההפקדה"; ObjectID = "6Bk-Ik-idQ"; */
+"6Bk-Ik-idQ.text" = "סכום ההפקדה";
+
+/* Class = "UILabel"; text = "הוסף הוראת קבע"; ObjectID = "7nL-pV-PeV"; */
+"7nL-pV-PeV.text" = "הוסף הוראת קבע";
+
+/* Class = "UILabel"; text = "ישראל ישראלי"; ObjectID = "7qc-zh-NGz"; */
+"7qc-zh-NGz.text" = "ישראל ישראלי";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "8ek-CE-EcP"; */
+"8ek-CE-EcP.normalTitle" = "6";
+
+/* Class = "UIButton"; normalTitle = "שלח"; ObjectID = "9aW-QA-InH"; */
+"9aW-QA-InH.normalTitle" = "שלח";
+
+/* Class = "UILabel"; text = "קנטינה"; ObjectID = "9eN-P0-Qvd"; */
+"9eN-P0-Qvd.text" = "קנטינה";
+
+/* Class = "UIButton"; normalTitle = "יש לך חשבון ? לחץ לכניסה"; ObjectID = "AV7-1C-iAA"; */
+"AV7-1C-iAA.normalTitle" = "יש לך חשבון ? לחץ לכניסה";
+
+/* Class = "UIButton"; normalTitle = "המשך"; ObjectID = "Auh-eg-gkC"; */
+"Auh-eg-gkC.normalTitle" = "המשך";
+
+/* Class = "UILabel"; text = "הנמענים שלי"; ObjectID = "BhE-Zk-V17"; */
+"BhE-Zk-V17.text" = "הנמענים שלי";
+
+/* Class = "UILabel"; text = "קיבלת קוד זיהוי בהודעת SMS"; ObjectID = "BvJ-2T-BgO"; */
+"BvJ-2T-BgO.text" = "קיבלת קוד זיהוי בהודעת SMS";
+
+/* Class = "UILabel"; text = "קנטינה"; ObjectID = "C89-BQ-yFS"; */
+"C89-BQ-yFS.text" = "קנטינה";
+
+/* Class = "UILabel"; text = "מספר חשבון"; ObjectID = "CQ7-8n-64I"; */
+"CQ7-8n-64I.text" = "מספר חשבון";
+
+/* Class = "UILabel"; text = "הרשמה"; ObjectID = "Chh-Cz-vSd"; */
+"Chh-Cz-vSd.text" = "הרשמה";
+
+/* Class = "UILabel"; text = "הוראת הקבע לקנטינה של"; ObjectID = "DLi-ZC-cW1"; */
+"DLi-ZC-cW1.text" = "הוראת הקבע לקנטינה של";
+
+/* Class = "UILabel"; text = "שכחתי סיסמא"; ObjectID = "Dsp-va-efJ"; */
+"Dsp-va-efJ.text" = "שכחתי סיסמא";
+
+/* Class = "UILabel"; text = "מספר חשבון"; ObjectID = "EqB-cn-6jG"; */
+"EqB-cn-6jG.text" = "מספר חשבון";
+
+/* Class = "UILabel"; text = "שם פרטי"; ObjectID = "F9l-O7-HKG"; */
+"F9l-O7-HKG.text" = "שם פרטי";
+
+/* Class = "UILabel"; text = "תאריך להפקדה לקנטינה: 10 לחודש"; ObjectID = "FCk-YY-6Rx"; */
+"FCk-YY-6Rx.text" = "תאריך להפקדה לקנטינה: 10 לחודש";
+
+/* Class = "UILabel"; text = "מס’ חשבון: 12345"; ObjectID = "Fvh-bU-cTP"; */
+"Fvh-bU-cTP.text" = "מס’ חשבון: 12345";
+
+/* Class = "UIButton"; normalTitle = "הוספת נמען חדש"; ObjectID = "FwF-sJ-Cxf"; */
+"FwF-sJ-Cxf.normalTitle" = "הוספת נמען חדש";
+
+/* Class = "UILabel"; text = "ישראל ישראלי"; ObjectID = "G3x-h7-C2d"; */
+"G3x-h7-C2d.text" = "ישראל ישראלי";
+
+/* Class = "UILabel"; text = "info@cantina.com"; ObjectID = "HPb-w9-TOv"; */
+"HPb-w9-TOv.text" = "info@cantina.com";
+
+/* Class = "UILabel"; text = "שם משפחה"; ObjectID = "HYH-cw-I4e"; */
+"HYH-cw-I4e.text" = "שם משפחה";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "HcS-d3-OVe"; */
+"HcS-d3-OVe.normalTitle" = "4";
+
+/* Class = "UILabel"; text = "לאן להפקיד"; ObjectID = "I7Y-VH-hVE"; */
+"I7Y-VH-hVE.text" = "לאן להפקיד";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ip2-gI-6ms"; */
+"Ip2-gI-6ms.text" = "Label";
+
+/* Class = "UILabel"; text = "₪537"; ObjectID = "KMp-ES-WuI"; */
+"KMp-ES-WuI.text" = "₪537";
+
+/* Class = "UIButton"; normalTitle = "בחר מספר הנמענים"; ObjectID = "KRu-OH-Ka9"; */
+"KRu-OH-Ka9.normalTitle" = "בחר מספר הנמענים";
+
+/* Class = "UILabel"; text = "03-1234567"; ObjectID = "KUX-FR-vCG"; */
+"KUX-FR-vCG.text" = "03-1234567";
+
+/* Class = "UILabel"; text = "ישראל ישראלי"; ObjectID = "KUs-KY-Mgm"; */
+"KUs-KY-Mgm.text" = "ישראל ישראלי";
+
+/* Class = "UIButton"; normalTitle = "עריכת הוראת קבע"; ObjectID = "KbQ-4e-tOQ"; */
+"KbQ-4e-tOQ.normalTitle" = "עריכת הוראת קבע";
+
+/* Class = "UIButton"; normalTitle = "מחק נמען זה"; ObjectID = "KyY-O8-n7J"; */
+"KyY-O8-n7J.normalTitle" = "מחק נמען זה";
+
+/* Class = "UILabel"; text = "הפקדה לקנטינה 123456 "; ObjectID = "L0o-1x-Qgm"; */
+"L0o-1x-Qgm.text" = "הפקדה לקנטינה 123456 ";
+
+/* Class = "UILabel"; text = "ישראל ישראלי"; ObjectID = "L17-1j-gGA"; */
+"L17-1j-gGA.text" = "ישראל ישראלי";
+
+/* Class = "UILabel"; text = "אני מאשר/ת את תנאי השימוש והתקנון"; ObjectID = "L61-Gv-Hqi"; */
+"L61-Gv-Hqi.text" = "אני מאשר/ת את תנאי השימוש והתקנון";
+
+/* Class = "UITextView"; text = "ewqweew"; ObjectID = "LB7-l0-Gl8"; */
+"LB7-l0-Gl8.text" = "ewqweew";
+
+/* Class = "UILabel"; text = "תוכן הפנייה"; ObjectID = "LI1-u9-94O"; */
+"LI1-u9-94O.text" = "תוכן הפנייה";
+
+/* Class = "UIButton"; normalTitle = "הוספת הוראת קבע   "; ObjectID = "LLI-M9-m40"; */
+"LLI-M9-m40.normalTitle" = "הוספת הוראת קבע   ";
+
+/* Class = "UILabel"; text = "תודה!"; ObjectID = "LPd-e3-XW8"; */
+"LPd-e3-XW8.text" = "תודה!";
+
+/* Class = "UIButton"; normalTitle = "היכנס"; ObjectID = "LwS-ri-1be"; */
+"LwS-ri-1be.normalTitle" = "היכנס";
+
+/* Class = "UILabel"; text = "אודות"; ObjectID = "MVK-Ca-chj"; */
+"MVK-Ca-chj.text" = "אודות";
+
+/* Class = "UILabel"; text = "הכסף מגיע\nלנמען"; ObjectID = "Md6-gf-lOy"; */
+"Md6-gf-lOy.text" = "הכסף מגיע\nלנמען";
+
+/* Class = "UILabel"; text = "פרי-פון"; ObjectID = "Mle-xm-OSG"; */
+"Mle-xm-OSG.text" = "פרי-פון";
+
+/* Class = "UILabel"; text = "14/3/17"; ObjectID = "N7E-GC-Pf0"; */
+"N7E-GC-Pf0.text" = "14/3/17";
+
+/* Class = "UILabel"; text = "הפקדה לקנטינה"; ObjectID = "O4J-gC-zs3"; */
+"O4J-gC-zs3.text" = "הפקדה לקנטינה";
+
+/* Class = "UITextField"; placeholder = "הקלד כאן את הקוד…"; ObjectID = "O7l-ru-vXc"; */
+"O7l-ru-vXc.placeholder" = "הקלד כאן את הקוד…";
+
+/* Class = "UILabel"; text = "הפקדה לקנטינה 123456 "; ObjectID = "O8T-Vi-1pP"; */
+"O8T-Vi-1pP.text" = "הפקדה לקנטינה 123456 ";
+
+/* Class = "UILabel"; text = "שם פרטי"; ObjectID = "OB1-Dg-Kcw"; */
+"OB1-Dg-Kcw.text" = "שם פרטי";
+
+/* Class = "UILabel"; text = "תשלום"; ObjectID = "OBj-lq-Tbj"; */
+"OBj-lq-Tbj.text" = "תשלום";
+
+/* Class = "UITextField"; placeholder = "טלפון"; ObjectID = "OI7-cL-xC4"; */
+"OI7-cL-xC4.placeholder" = "טלפון";
+
+/* Class = "UILabel"; text = "ישראל ישראלי"; ObjectID = "Ofu-Nb-h9G"; */
+"Ofu-Nb-h9G.text" = "ישראל ישראלי";
+
+/* Class = "UILabel"; text = "שם מלא"; ObjectID = "Pba-rJ-Kbo"; */
+"Pba-rJ-Kbo.text" = "שם מלא";
+
+/* Class = "UIButton"; normalTitle = "חזור למסך הבית"; ObjectID = "PjI-yb-b1v"; */
+"PjI-yb-b1v.normalTitle" = "חזור למסך הבית";
+
+/* Class = "UIButton"; normalTitle = "סיים"; ObjectID = "Pms-SL-gPo"; */
+"Pms-SL-gPo.normalTitle" = "סיים";
+
+/* Class = "UILabel"; text = "דרך שלמה 4, רחובות"; ObjectID = "Pom-wz-Ad0"; */
+"Pom-wz-Ad0.text" = "דרך שלמה 4, רחובות";
+
+/* Class = "UITextField"; placeholder = "2"; ObjectID = "QFY-p8-QI3"; */
+"QFY-p8-QI3.placeholder" = "2";
+
+/* Class = "UILabel"; text = "מס’ חשבון: 12345"; ObjectID = "QP7-Ae-mSi"; */
+"QP7-Ae-mSi.text" = "מס’ חשבון: 12345";
+
+/* Class = "UILabel"; text = "  הפקדה לקנטינה "; ObjectID = "QTq-SJ-L1D"; */
+"QTq-SJ-L1D.text" = "  הפקדה לקנטינה ";
+
+/* Class = "UILabel"; text = "צור קשר"; ObjectID = "RuR-8h-yf4"; */
+"RuR-8h-yf4.text" = "צור קשר";
+
+/* Class = "UIButton"; normalTitle = "בחר מספר הנמענים"; ObjectID = "S16-df-Yrc"; */
+"S16-df-Yrc.normalTitle" = "בחר מספר הנמענים";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "S2m-ef-rQD"; */
+"S2m-ef-rQD.normalTitle" = "0";
+
+/* Class = "UILabel"; text = "תנאי השימוש"; ObjectID = "T9I-Tg-xNa"; */
+"T9I-Tg-xNa.text" = "תנאי השימוש";
+
+/* Class = "UILabel"; text = "שם מלא"; ObjectID = "Tr8-AF-VzO"; */
+"Tr8-AF-VzO.text" = "שם מלא";
+
+/* Class = "UILabel"; text = "שם משפחה"; ObjectID = "TsW-8L-BLl"; */
+"TsW-8L-BLl.text" = "שם משפחה";
+
+/* Class = "UIButton"; normalTitle = "הפקד שוב"; ObjectID = "UCY-Bu-wcP"; */
+"UCY-Bu-wcP.normalTitle" = "הפקד שוב";
+
+/* Class = "UILabel"; text = "₪0"; ObjectID = "ULh-vc-GEU"; */
+"ULh-vc-GEU.text" = "₪0";
+
+/* Class = "UILabel"; text = "סכום ההפקדה"; ObjectID = "V2x-JY-Csm"; */
+"V2x-JY-Csm.text" = "סכום ההפקדה";
+
+/* Class = "UILabel"; text = "הוראות\nקבע"; ObjectID = "VOb-dF-82h"; */
+"VOb-dF-82h.text" = "הוראות\nקבע";
+
+/* Class = "UIButton"; normalTitle = "סיים"; ObjectID = "Vps-rF-D80"; */
+"Vps-rF-D80.normalTitle" = "סיים";
+
+/* Class = "UILabel"; text = "שכחתי סיסמא"; ObjectID = "VvR-cu-kzP"; */
+"VvR-cu-kzP.text" = "שכחתי סיסמא";
+
+/* Class = "UILabel"; text = "בוצעה בהצלחה"; ObjectID = "W6u-5N-xDp"; */
+"W6u-5N-xDp.text" = "בוצעה בהצלחה";
+
+/* Class = "UITextField"; placeholder = "טלפון"; ObjectID = "Wb5-Hg-hiJ"; */
+"Wb5-Hg-hiJ.placeholder" = "טלפון";
+
+/* Class = "UILabel"; text = "סטטוס: בהמתנה"; ObjectID = "Wbq-2v-QWd"; */
+"Wbq-2v-QWd.text" = "סטטוס: בהמתנה";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "WdN-9t-2zq"; */
+"WdN-9t-2zq.normalTitle" = "7";
+
+/* Class = "UIButton"; normalTitle = "לא רשום עדיין? לחץ להרשמה"; ObjectID = "Wil-G7-THg"; */
+"Wil-G7-THg.normalTitle" = "לא רשום עדיין? לחץ להרשמה";
+
+/* Class = "UILabel"; text = "כניסה"; ObjectID = "XEq-Ym-h0Y"; */
+"XEq-Ym-h0Y.text" = "כניסה";
+
+/* Class = "UILabel"; text = "03-1234567"; ObjectID = "Xq0-6V-xl1"; */
+"Xq0-6V-xl1.text" = "03-1234567";
+
+/* Class = "UITextField"; placeholder = "טלפון"; ObjectID = "Y2T-8F-FgE"; */
+"Y2T-8F-FgE.placeholder" = "טלפון";
+
+/* Class = "UIButton"; normalTitle = "הירשם"; ObjectID = "YsG-5w-syY"; */
+"YsG-5w-syY.normalTitle" = "הירשם";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "ZEI-Ue-j25"; */
+"ZEI-Ue-j25.normalTitle" = "2";
+
+/* Class = "UIButton"; normalTitle = "הפקד לקנטינה"; ObjectID = "ZZ4-tY-5Tb"; */
+"ZZ4-tY-5Tb.normalTitle" = "הפקד לקנטינה";
+
+/* Class = "UIButton"; normalTitle = "הירשם"; ObjectID = "Zj4-OX-opJ"; */
+"Zj4-OX-opJ.normalTitle" = "הירשם";
+
+/* Class = "UILabel"; text = "ערוך את פרטי הנמען"; ObjectID = "a5g-hN-ojJ"; */
+"a5g-hN-ojJ.text" = "ערוך את פרטי הנמען";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "a86-Y4-d94"; */
+"a86-Y4-d94.normalTitle" = "8";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "acy-Qy-hkD"; */
+"acy-Qy-hkD.normalTitle" = "1";
+
+/* Class = "UIButton"; normalTitle = "שכחת את הסיסמה? לחץ כאן"; ObjectID = "auf-9t-yfu"; */
+"auf-9t-yfu.normalTitle" = "שכחת את הסיסמה? לחץ כאן";
+
+/* Class = "UILabel"; text = "מספר הפקדה: 1234567"; ObjectID = "av1-GI-Yxe"; */
+"av1-GI-Yxe.text" = "מספר הפקדה: 1234567";
+
+/* Class = "UIButton"; normalTitle = "המשך"; ObjectID = "bBN-NU-zGb"; */
+"bBN-NU-zGb.normalTitle" = "המשך";
+
+/* Class = "UILabel"; text = "מספר חשבון"; ObjectID = "bho-Bn-F5A"; */
+"bho-Bn-F5A.text" = "מספר חשבון";
+
+/* Class = "UILabel"; text = "שם מלא"; ObjectID = "bil-FB-dSz"; */
+"bil-FB-dSz.text" = "שם מלא";
+
+/* Class = "UILabel"; text = "מספר אישי"; ObjectID = "bmI-Dg-OEN"; */
+"bmI-Dg-OEN.text" = "מספר אישי";
+
+/* Class = "UIButton"; normalTitle = "הוסף"; ObjectID = "don-Bn-zvC"; */
+"don-Bn-zvC.normalTitle" = "הוסף";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "dz7-WO-F3Q"; */
+"dz7-WO-F3Q.normalTitle" = "3";
+
+/* Class = "UILabel"; text = "SMS הכנס את הקוד שנשלח אלייך בהודעת"; ObjectID = "eOl-h9-Dcz"; */
+"eOl-h9-Dcz.text" = "SMS הכנס את הקוד שנשלח אלייך בהודעת";
+
+/* Class = "UILabel"; text = "מס’ חשבון: 12345"; ObjectID = "emb-Sc-32n"; */
+"emb-Sc-32n.text" = "מס’ חשבון: 12345";
+
+/* Class = "UIButton"; normalTitle = "שלח"; ObjectID = "fB2-fL-he3"; */
+"fB2-fL-he3.normalTitle" = "שלח";
+
+/* Class = "UILabel"; text = "פרי-פון"; ObjectID = "faW-2f-xTN"; */
+"faW-2f-xTN.text" = "פרי-פון";
+
+/* Class = "UILabel"; text = "מס׳ חשבון"; ObjectID = "fyL-7v-G6u"; */
+"fyL-7v-G6u.text" = "מס׳ חשבון";
+
+/* Class = "UILabel"; text = "מס׳ חשבון"; ObjectID = "geo-ju-L6J"; */
+"geo-ju-L6J.text" = "מס׳ חשבון";
+
+/* Class = "UILabel"; text = "ישראל ישראלי"; ObjectID = "gmD-FH-B9J"; */
+"gmD-FH-B9J.text" = "ישראל ישראלי";
+
+/* Class = "UIButton"; normalTitle = "שלח"; ObjectID = "h01-Su-exP"; */
+"h01-Su-exP.normalTitle" = "שלח";
+
+/* Class = "UILabel"; text = "שם פרטי ושם משפחה"; ObjectID = "jYI-09-nK8"; */
+"jYI-09-nK8.text" = "שם פרטי ושם משפחה";
+
+/* Class = "UIButton"; normalTitle = "הפוך הפקדה זו להוראת קבע"; ObjectID = "jvu-Uk-7Uy"; */
+"jvu-Uk-7Uy.normalTitle" = "הפוך הפקדה זו להוראת קבע";
+
+/* Class = "UITextField"; placeholder = "סיסמא"; ObjectID = "k2m-xf-kOf"; */
+"k2m-xf-kOf.placeholder" = "סיסמא";
+
+/* Class = "UILabel"; text = "תאריך חודשי להפקדה"; ObjectID = "kc2-0U-Ine"; */
+"kc2-0U-Ine.text" = "תאריך חודשי להפקדה";
+
+/* Class = "UIButton"; normalTitle = "."; ObjectID = "kit-MY-iRp"; */
+"kit-MY-iRp.normalTitle" = ".";
+
+/* Class = "UILabel"; text = "תאריך חודשי להפקדה"; ObjectID = "kza-j5-xIo"; */
+"kza-j5-xIo.text" = "תאריך חודשי להפקדה";
+
+/* Class = "UILabel"; text = "סכום ההפקדה: ₪537 "; ObjectID = "lXH-Ml-ucb"; */
+"lXH-Ml-ucb.text" = "סכום ההפקדה: ₪537 ";
+
+/* Class = "UITextField"; placeholder = "שם מלא"; ObjectID = "lYX-YZ-jlI"; */
+"lYX-YZ-jlI.placeholder" = "שם מלא";
+
+/* Class = "UILabel"; text = "₪537"; ObjectID = "lcQ-Xb-qcd"; */
+"lcQ-Xb-qcd.text" = "₪537";
+
+/* Class = "UILabel"; text = "ישראל ישראלי"; ObjectID = "lmM-uV-0ke"; */
+"lmM-uV-0ke.text" = "ישראל ישראלי";
+
+/* Class = "UILabel"; text = "הנמענים\nשלי"; ObjectID = "loR-qx-Tb5"; */
+"loR-qx-Tb5.text" = "הנמענים\nשלי";
+
+/* Class = "UIButton"; normalTitle = "חזור למסך הבית"; ObjectID = "lvP-Qh-0Gr"; */
+"lvP-Qh-0Gr.normalTitle" = "חזור למסך הבית";
+
+/* Class = "UILabel"; text = "הוראת קבע "; ObjectID = "nxb-Fv-AaI"; */
+"nxb-Fv-AaI.text" = "הוראת קבע ";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "pQq-oT-gC5"; */
+"pQq-oT-gC5.normalTitle" = "5";
+
+/* Class = "UIButton"; normalTitle = "עריכת פרטי הנמען"; ObjectID = "qUJ-kO-Hdb"; */
+"qUJ-kO-Hdb.normalTitle" = "עריכת פרטי הנמען";
+
+/* Class = "UILabel"; text = "הכנס את מספר הטלפון שלך\nואנחנו נשלח אלייך סיסמא חדשה"; ObjectID = "r1R-2D-TXX"; */
+"r1R-2D-TXX.text" = "הכנס את מספר הטלפון שלך\nואנחנו נשלח אלייך סיסמא חדשה";
+
+/* Class = "UILabel"; text = "או"; ObjectID = "s65-TH-WoF"; */
+"s65-TH-WoF.text" = "או";
+
+/* Class = "UILabel"; text = "טלפון"; ObjectID = "sLK-hc-KXP"; */
+"sLK-hc-KXP.text" = "טלפון";
+
+/* Class = "UILabel"; text = "שם פרטי"; ObjectID = "sUD-Pd-lZl"; */
+"sUD-Pd-lZl.text" = "שם פרטי";
+
+/* Class = "UILabel"; text = "שאלות ותשובות"; ObjectID = "seh-wX-KKB"; */
+"seh-wX-KKB.text" = "שאלות ותשובות";
+
+/* Class = "UIButton"; normalTitle = "יש לך חשבון? לחץ לכניסה"; ObjectID = "sh9-HD-zg1"; */
+"sh9-HD-zg1.normalTitle" = "יש לך חשבון? לחץ לכניסה";
+
+/* Class = "UILabel"; text = "שם פרטי"; ObjectID = "uZj-8J-xLO"; */
+"uZj-8J-xLO.text" = "שם פרטי";
+
+/* Class = "UIButton"; normalTitle = "הפקד לפרי-פון"; ObjectID = "uzt-GG-Jvf"; */
+"uzt-GG-Jvf.normalTitle" = "הפקד לפרי-פון";
+
+/* Class = "UILabel"; text = "הוסף נמען חדש "; ObjectID = "vC6-bw-UDG"; */
+"vC6-bw-UDG.text" = "הוסף נמען חדש ";
+
+/* Class = "UITextField"; placeholder = "סיסמא"; ObjectID = "vLF-bH-dwG"; */
+"vLF-bH-dwG.placeholder" = "סיסמא";
+
+/* Class = "UILabel"; text = "לאן להפקיד"; ObjectID = "vOC-gh-LDR"; */
+"vOC-gh-LDR.text" = "לאן להפקיד";
+
+/* Class = "UILabel"; text = "היסטורית הפקדות"; ObjectID = "vOE-AS-sNa"; */
+"vOE-AS-sNa.text" = "היסטורית הפקדות";
+
+/* Class = "UILabel"; text = "info@cantina.com"; ObjectID = "vVF-p2-zQF"; */
+"vVF-p2-zQF.text" = "info@cantina.com";
+
+/* Class = "UILabel"; text = "הפקדה לפרי-פון"; ObjectID = "w4U-Qi-Ga4"; */
+"w4U-Qi-Ga4.text" = "הפקדה לפרי-פון";
+
+/* Class = "UILabel"; text = "ההפקדה נכשלה"; ObjectID = "xcQ-kD-0Or"; */
+"xcQ-kD-0Or.text" = "ההפקדה נכשלה";
+
+/* Class = "UIButton"; normalTitle = "מחק הוראת קבע זו"; ObjectID = "yt5-0V-sgu"; */
+"yt5-0V-sgu.normalTitle" = "מחק הוראת קבע זו";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "z2c-KJ-2UI"; */
+"z2c-KJ-2UI.normalTitle" = "9";
+
+/* Class = "UILabel"; text = "שם משפחה"; ObjectID = "zpq-mf-df1"; */
+"zpq-mf-df1.text" = "שם משפחה";

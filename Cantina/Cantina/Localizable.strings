@@ -1,0 +1,97 @@
+
+"Approval" = "אישור";
+"PleaseWait" = "המתן בבקשה";
+"Okay" = "בסדר";
+"Email" = "דואר אלקטרוני";
+"Password" = "סיסמא";
+"FullName" = "שם מלא";
+"LicenceNumber" = "מספר רישון";
+"MissingItems" = "פרטים חסרים";
+"FillAll" = "אנא מלא את כל הפרטים בכדי להמשיך"; // Please fill in all details to continue
+"ValidEmail" = "הזן דוא\"ל חוקי"; // Please enter a valid email
+"ForgotPassword" = "שכחתי סיסמא"; // Forgot Password
+"NoAccount" = "לא רשומ/ה? לחצ/י להרשמה"; // Not registered? Click to register
+"FillEmail" = "מלא כאן את הכתובת האימייל שלך"; // Fill in your email address here
+"AlreadyRegister" = "רשומ/ה כבר? לחצ/י לכניסה"; // Already registered? Click to enter
+"FillContact" = "מספר איש הקשר אינו יכול להיות ריק!"; // Contact number can not be empty!
+"FillPassword" = "הסיסמה לא יכולה להיות ריקה!"; // Password can not be empty!
+"PasswordLength" = "הסיסמה חייבת להיות באורך 6 תווים לפחות!"; // Password must be at least 6 characters long!
+"Username" = "שם המשתמש אינו יכול להיות ריק!"; //Username can not be blank!
+"OtpCode" = "להזין את הקוד!"; // Enter the code!
+
+"MyReviews" = "התסקירים שלי";
+"ScheduleTests" = "לו”ז בדיקות";
+"AddFacility" = "הוסף מתקן";
+"CreateWebsite" = "הקם אתר";
+"StartReview" = "התחל תסקיר";
+
+//Settings
+"Settings" = "הגדרות"; // Definitions
+"Profile" = "פרופיל אישי";
+"ContactUs" = "צור קשר";
+"QA" = "שאלות ותשובות";
+"TermsOfUse" = "תנאי שימוש";
+
+//Likes
+"MySites" = "האתרים שלי";
+"AddSite" = "הוסף אתר";
+"LikesAddress" = "בני שמעון 14, רחובות";
+"LastTestDate" = "תאריך בדיקה אחרון: 14/8/17";
+
+
+//Notifications
+"Notifications" = "התראות";
+"NotifTitle" = "כותרת ההודעה";
+"NotifDesc" = "תוכן ההודעה תוכן ההודעה תוכן ההודעה תוכן ההודעה תוכן ההודעה תוכן ההודעה תוכן ההוד";
+
+//BarCodeScan
+"StartReview" = "התחל תסקיר";
+"ScanBarCode" = "סרוק ברקוד";
+"TheBellGarden" = "גן הפעמון";
+
+//Details
+"FacilityA" = "מתקן א";
+
+
+//General
+"Delete" = "מחק";
+"Edited" = "ערוך";
+"Are you sure you want to delete?" = "אתה בטוח שאתה רוצה למחוק?";
+"Yes" = "כן";
+"No" = "לא";
+
+// MyReview
+"MyReviewTitle" = "התסקירים שלי";
+"Tableft" = "ertewrtwrwerw";
+"Tabright" = "חתומים";
+
+"Tableft1Field" = "גן הפעמון";
+"Tableft2Field" = "בני שמעון 14, רחובות";
+"Tableft3Field" = "תאריך בדיקה: 14/3/17";
+
+// Place
+"PlaceTitle" = "גן הפעמון";
+"Placename" = "בבעלות א.ד בנייה וציוד";
+"Placebutton1" = "היסטורית פעילות";
+"Placebutton2" = "פרטים כללים";
+"Placecheckmark" = "אני מאשר כי קראתי את התסקיר הקודם";
+"PlacebottomButton" = "התחל תסקיר";
+
+// Schedule Screen
+"ScheduleTitle" = "לו”ז יומי";
+"ScheduleBelowCalendar" = "לחץ כאן לבחירת תאריך אחר";
+"SchedulePlus" = "הוסף בדיקה ללו”ז";
+"ScheduleMiddle" = "לו”ז הבדיקות היומי שלך ריק\nלחץ על הוסף בדיקה תחילה";
+"DailySchedule" = "לו”ז יומי";
+
+//Inside plus Screen
+"plusTitle" = "הוסף בדיקה ללו”ז";
+"plusFirst" = "הקלד/י את שם העיר";
+"plusSecond" = "הקלד/י את שם  האתר";
+"plusThird" = "בחר תאריך";
+"plusFour" = "בחר שעה";
+"plusButton" = "הוסף";
+
+//Place Name
+"PlaceNameTitle" = "גן הפעמון";
+"PlaceNameHeader" = "בבעלות א.ד בנייה וציוד";

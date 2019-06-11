@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyContactsCell2" rowHeight="141" id="gKP-Nn-zoL" userLabel="MyContactsCell2" customClass="MyContactsCell2" customModule="Cantina" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gKP-Nn-zoL" id="qxi-G8-Qaa">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="140.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdo-wK-59x">
+                        <rect key="frame" x="16" y="35" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="kga-dK-HeE"/>
+                            <constraint firstAttribute="width" constant="32" id="tYx-sx-HwV"/>
+                        </constraints>
+                        <state key="normal" image="Right Arrow"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ישראל ישראלי" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.60000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="NDi-5I-tfH">
+                        <rect key="frame" x="47" y="11" width="308" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="4bn-Kp-E7A"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="21"/>
+                        <color key="textColor" red="0.34509803919999998" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מס’ חשבון: 12345" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.60000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="ghr-Dx-Bh3">
+                        <rect key="frame" x="53" y="45" width="302" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="QLr-GA-eRR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
+                        <color key="textColor" red="0.47843137250000001" green="0.47058823529999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="הפקדה לקנטינה 123456 " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.60000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="WHU-XW-FUl">
+                        <rect key="frame" x="53" y="70" width="302" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="fGW-X3-xEV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
+                        <color key="textColor" red="0.47843137250000001" green="0.47058823529999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="סכום ההפקדה: ₪537 " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.60000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="LTw-ib-x4P">
+                        <rect key="frame" x="53" y="95" width="302" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="qKz-Cw-t02"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
+                        <color key="textColor" red="0.47843137250000001" green="0.47058823529999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Border" translatesAutoresizingMaskIntoConstraints="NO" id="Hzt-D3-ZPy">
+                        <rect key="frame" x="0.0" y="140" width="375" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="gqO-vb-o4z"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="LTw-ib-x4P" secondAttribute="trailing" constant="20" id="1l8-1k-zhj"/>
+                    <constraint firstAttribute="trailing" secondItem="WHU-XW-FUl" secondAttribute="trailing" constant="20" id="CHI-sK-b4E"/>
+                    <constraint firstItem="ghr-Dx-Bh3" firstAttribute="top" secondItem="NDi-5I-tfH" secondAttribute="bottom" constant="7" id="DOW-tV-N4M"/>
+                    <constraint firstItem="NDi-5I-tfH" firstAttribute="leading" secondItem="qxi-G8-Qaa" secondAttribute="leading" constant="47" id="LAs-5a-Mqa"/>
+                    <constraint firstItem="WHU-XW-FUl" firstAttribute="top" secondItem="ghr-Dx-Bh3" secondAttribute="bottom" constant="6" id="P5Y-dp-9dz"/>
+                    <constraint firstItem="WHU-XW-FUl" firstAttribute="leading" secondItem="qxi-G8-Qaa" secondAttribute="leading" constant="53" id="SkB-Yb-txt"/>
+                    <constraint firstItem="LTw-ib-x4P" firstAttribute="leading" secondItem="qxi-G8-Qaa" secondAttribute="leading" constant="53" id="acJ-5L-39t"/>
+                    <constraint firstItem="LTw-ib-x4P" firstAttribute="top" secondItem="WHU-XW-FUl" secondAttribute="bottom" constant="6" id="cEv-Of-5FQ"/>
+                    <constraint firstItem="ghr-Dx-Bh3" firstAttribute="leading" secondItem="hdo-wK-59x" secondAttribute="trailing" constant="5" id="dWe-zz-aMF"/>
+                    <constraint firstItem="hdo-wK-59x" firstAttribute="leading" secondItem="qxi-G8-Qaa" secondAttribute="leading" constant="16" id="dYF-UR-HOZ"/>
+                    <constraint firstItem="Hzt-D3-ZPy" firstAttribute="leading" secondItem="qxi-G8-Qaa" secondAttribute="leading" id="deB-U5-5XZ"/>
+                    <constraint firstItem="Hzt-D3-ZPy" firstAttribute="top" secondItem="hdo-wK-59x" secondAttribute="bottom" constant="73" id="gkQ-Jy-P8H"/>
+                    <constraint firstAttribute="bottom" secondItem="Hzt-D3-ZPy" secondAttribute="bottom" constant="-0.5" id="hW4-Ll-rbT"/>
+                    <constraint firstAttribute="trailing" secondItem="ghr-Dx-Bh3" secondAttribute="trailing" constant="20" id="hec-o5-8if"/>
+                    <constraint firstAttribute="trailing" secondItem="NDi-5I-tfH" secondAttribute="trailing" constant="20" id="n5l-EZ-CfB"/>
+                    <constraint firstAttribute="trailing" secondItem="Hzt-D3-ZPy" secondAttribute="trailing" id="sKC-XW-9C4"/>
+                    <constraint firstItem="NDi-5I-tfH" firstAttribute="top" secondItem="qxi-G8-Qaa" secondAttribute="top" constant="11" id="yOX-fd-xh8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lbl1" destination="NDi-5I-tfH" id="EFB-V7-utE"/>
+                <outlet property="lbl3" destination="ghr-Dx-Bh3" id="oMy-qj-Aiq"/>
+                <outlet property="lbl4" destination="WHU-XW-FUl" id="25a-Yj-mR1"/>
+                <outlet property="lbl5" destination="LTw-ib-x4P" id="F85-7w-3di"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="-130"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Border" width="375" height="1"/>
+        <image name="Right Arrow" width="16" height="30"/>
+    </resources>
+</document>

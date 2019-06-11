@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Light.ttf">
+            <string>Rubik-Light</string>
+        </array>
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FreePhoneSuccessWithUserInfoVC" customModule="Cantina" customModuleProvider="target">
+            <connections>
+                <outlet property="btnSideMenu" destination="Lv3-Tc-Ft5" id="o8e-0a-ntQ"/>
+                <outlet property="lblInitalPassword" destination="NcK-Dy-CbI" id="KKO-LN-OP4"/>
+                <outlet property="lblUserName" destination="yRg-4p-3cs" id="v3H-aU-fyQ"/>
+                <outlet property="lblUserNumber" destination="jAJ-Lx-X6q" id="zdc-tG-Fd6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lYO-Dg-DCl">
+                    <rect key="frame" x="0.0" y="-20" width="375" height="687"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cVW-Km-9LH">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="680"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginBG" translatesAutoresizingMaskIntoConstraints="NO" id="zwR-zH-Tic">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="250" id="AQB-ZG-nvf"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="תודה !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6c-cs-T8q">
+                                    <rect key="frame" x="123.5" y="70" width="128" height="72"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="4vG-vP-FyU"/>
+                                        <constraint firstAttribute="height" constant="72" id="K13-fH-Byi"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="50"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="בוצעה הטענה לפריפון של" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0P-Js-5J5">
+                                    <rect key="frame" x="87" y="144" width="201" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="F53-ls-X0A"/>
+                                        <constraint firstAttribute="width" constant="201" id="RUZ-1W-TZ7"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Rubik-Light" family="Rubik" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ישראל ישראלי" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRg-4p-3cs">
+                                    <rect key="frame" x="117.5" y="164" width="140" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="0DB-sT-mkO"/>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="Ghh-4J-kD7"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="24"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מספר משתמש : 55555555" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAJ-Lx-X6q">
+                                    <rect key="frame" x="20" y="290" width="335" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="65T-PM-fba"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Rubik-Light" family="Rubik" pointSize="18"/>
+                                    <color key="textColor" red="0.85882352939999995" green="0.12941176469999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="בתאריך : 10.10.18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcK-Dy-CbI">
+                                    <rect key="frame" x="20" y="310" width="335" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="blu-jT-c0j"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Rubik-Light" family="Rubik" pointSize="18"/>
+                                    <color key="textColor" red="0.85882352939999995" green="0.12941176469999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Brand Book &amp; Logo-6" translatesAutoresizingMaskIntoConstraints="NO" id="hIk-TL-Jx6">
+                                    <rect key="frame" x="151.5" y="365" width="72" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="aXl-dm-6Kx"/>
+                                        <constraint firstAttribute="width" constant="72" id="bhG-gq-UTk"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="עלמנת להתחיל את השימוש," textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gT-KW-anI">
+                                    <rect key="frame" x="34" y="460" width="307" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="LAS-it-Q5d"/>
+                                        <constraint firstAttribute="width" constant="307" id="Uiy-AH-P9l"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="20"/>
+                                    <color key="textColor" red="0.85882352939999995" green="0.12941176469999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kZ8-iS-qjL">
+                                    <rect key="frame" x="31" y="480" width="313" height="24"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מספר המשתמש והססמא" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voV-l1-F4D">
+                                            <rect key="frame" x="0.0" y="0.0" width="208" height="24"/>
+                                            <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="20"/>
+                                            <color key="textColor" red="0.85882352941176465" green="0.12941176470588234" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="נא העבר את" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkx-SH-gy0">
+                                            <rect key="frame" x="213" y="0.0" width="100" height="24"/>
+                                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="20"/>
+                                            <color key="textColor" red="0.85882352939999995" green="0.12941176469999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="EdD-G5-7tC"/>
+                                        <constraint firstAttribute="width" constant="313" id="yZQ-tg-v40"/>
+                                    </constraints>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="לנמען אליו הטענת את הכסף." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHt-5L-Wco">
+                                    <rect key="frame" x="34" y="504" width="307" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="6pn-Rv-BAg"/>
+                                        <constraint firstAttribute="width" constant="307" id="p3C-6k-ggi"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="20"/>
+                                    <color key="textColor" red="0.85882352939999995" green="0.12941176469999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAz-dm-Jq6">
+                                    <rect key="frame" x="81" y="564" width="213" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="7q9-VR-UOQ"/>
+                                        <constraint firstAttribute="width" constant="213" id="wbw-LO-pMV"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="22"/>
+                                    <state key="normal" title="חזור למסך הבית" backgroundImage="Rectangle 14 Copy">
+                                        <color key="titleColor" red="0.85882352939999995" green="0.12941176469999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="backToHomeClicked:" destination="-1" eventType="touchUpInside" id="f7n-3v-LDZ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="jAJ-Lx-X6q" firstAttribute="top" secondItem="zwR-zH-Tic" secondAttribute="bottom" constant="40" id="3gH-PN-Ip0"/>
+                                <constraint firstItem="zwR-zH-Tic" firstAttribute="top" secondItem="cVW-Km-9LH" secondAttribute="top" id="5SB-5p-XZC"/>
+                                <constraint firstItem="NcK-Dy-CbI" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="Cn5-qU-JdR"/>
+                                <constraint firstItem="n0P-Js-5J5" firstAttribute="top" secondItem="j6c-cs-T8q" secondAttribute="bottom" constant="2" id="DQp-Fg-mvj"/>
+                                <constraint firstItem="5gT-KW-anI" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="EOG-h2-5Bz"/>
+                                <constraint firstItem="yRg-4p-3cs" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="Hbq-2f-tOf"/>
+                                <constraint firstItem="yRg-4p-3cs" firstAttribute="top" secondItem="n0P-Js-5J5" secondAttribute="bottom" id="Huq-sZ-KuL"/>
+                                <constraint firstItem="LAz-dm-Jq6" firstAttribute="top" secondItem="ZHt-5L-Wco" secondAttribute="top" constant="60" id="JFR-jY-qPu"/>
+                                <constraint firstItem="NcK-Dy-CbI" firstAttribute="width" secondItem="cVW-Km-9LH" secondAttribute="width" constant="-40.333333333333371" id="PLA-4N-O3C"/>
+                                <constraint firstItem="5gT-KW-anI" firstAttribute="top" secondItem="hIk-TL-Jx6" secondAttribute="bottom" constant="45" id="Rru-DR-afb"/>
+                                <constraint firstItem="NcK-Dy-CbI" firstAttribute="top" secondItem="jAJ-Lx-X6q" secondAttribute="bottom" id="RsZ-KR-wh8"/>
+                                <constraint firstAttribute="height" constant="680" id="Uk0-SZ-CX4"/>
+                                <constraint firstItem="ZHt-5L-Wco" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="Ygm-mb-3KL"/>
+                                <constraint firstItem="hIk-TL-Jx6" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="baa-wp-h7v"/>
+                                <constraint firstItem="hIk-TL-Jx6" firstAttribute="top" secondItem="NcK-Dy-CbI" secondAttribute="bottom" constant="35" id="daE-LI-LCn"/>
+                                <constraint firstItem="kZ8-iS-qjL" firstAttribute="top" secondItem="5gT-KW-anI" secondAttribute="bottom" id="fLR-ye-MJH"/>
+                                <constraint firstItem="kZ8-iS-qjL" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="geL-S4-8sA"/>
+                                <constraint firstItem="n0P-Js-5J5" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="jtm-B0-ieM"/>
+                                <constraint firstItem="ZHt-5L-Wco" firstAttribute="top" secondItem="kZ8-iS-qjL" secondAttribute="bottom" id="kiN-6Y-dzH"/>
+                                <constraint firstItem="jAJ-Lx-X6q" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="lsV-uN-XYD"/>
+                                <constraint firstItem="zwR-zH-Tic" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="m2v-cC-fd3"/>
+                                <constraint firstItem="zwR-zH-Tic" firstAttribute="width" secondItem="cVW-Km-9LH" secondAttribute="width" id="mH2-q5-sJs"/>
+                                <constraint firstItem="j6c-cs-T8q" firstAttribute="top" secondItem="cVW-Km-9LH" secondAttribute="top" constant="70" id="pJo-Bs-EV6"/>
+                                <constraint firstItem="jAJ-Lx-X6q" firstAttribute="width" secondItem="cVW-Km-9LH" secondAttribute="width" constant="-40.333333333333371" id="rns-rU-Pty"/>
+                                <constraint firstItem="j6c-cs-T8q" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="uh3-F0-xvA"/>
+                                <constraint firstItem="LAz-dm-Jq6" firstAttribute="centerX" secondItem="cVW-Km-9LH" secondAttribute="centerX" id="wdR-Um-Loe"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="cVW-Km-9LH" firstAttribute="trailing" secondItem="lYO-Dg-DCl" secondAttribute="trailing" id="SIi-aa-u17"/>
+                        <constraint firstItem="cVW-Km-9LH" firstAttribute="top" secondItem="lYO-Dg-DCl" secondAttribute="top" id="Uvu-QP-gFm"/>
+                        <constraint firstItem="cVW-Km-9LH" firstAttribute="bottom" secondItem="lYO-Dg-DCl" secondAttribute="bottom" id="b6x-K1-hu6"/>
+                        <constraint firstItem="cVW-Km-9LH" firstAttribute="leading" secondItem="lYO-Dg-DCl" secondAttribute="leading" id="bvQ-FP-Jia"/>
+                    </constraints>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lv3-Tc-Ft5">
+                    <rect key="frame" x="325" y="42" width="33" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="5S4-HZ-Paj"/>
+                        <constraint firstAttribute="width" constant="33" id="XOP-Pd-NYd"/>
+                    </constraints>
+                    <state key="normal" image="Menu"/>
+                    <connections>
+                        <action selector="sideMenuclicked:" destination="-1" eventType="touchUpInside" id="oCr-68-zZt"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Lv3-Tc-Ft5" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-17" id="AR9-r4-wwG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="lYO-Dg-DCl" secondAttribute="top" constant="40" id="Fvu-g8-Xqy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="leading" secondItem="lYO-Dg-DCl" secondAttribute="leading" id="QnF-4W-m8R"/>
+                <constraint firstItem="lYO-Dg-DCl" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="dSN-Nn-Ice"/>
+                <constraint firstItem="cVW-Km-9LH" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="gBc-q4-8oj"/>
+                <constraint firstItem="Lv3-Tc-Ft5" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="22" id="mKI-CP-ZSg"/>
+                <constraint firstItem="lYO-Dg-DCl" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="wgU-Lx-3Q4"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-1114" y="26"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Brand Book &amp; Logo-6" width="106" height="74"/>
+        <image name="LoginBG" width="375" height="336.5"/>
+        <image name="Menu" width="33" height="25"/>
+        <image name="Rectangle 14 Copy" width="219" height="50"/>
+    </resources>
+</document>

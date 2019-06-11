@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FreePhonePaymentVC" customModule="Cantina" customModuleProvider="target">
+            <connections>
+                <outlet property="btnSideMenu" destination="e7s-2z-ZJB" id="2dp-Ra-FYs"/>
+                <outlet property="freePhoneWebView" destination="XsN-xk-ioX" id="ZqP-rH-HZw"/>
+                <outlet property="lblAmount" destination="kFs-e8-Yfv" id="jqd-LC-qTr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AtB-Et-1jB" userLabel="HeaderView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="87"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG payHistory" translatesAutoresizingMaskIntoConstraints="NO" id="PuF-rG-QkZ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCe-gg-mkh" userLabel="BackButton">
+                            <rect key="frame" x="20" y="34" width="23" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="23" id="Zls-Mr-zuZ"/>
+                                <constraint firstAttribute="width" constant="23" id="gUL-fi-bOV"/>
+                            </constraints>
+                            <state key="normal" image="left-arrow black"/>
+                            <connections>
+                                <action selector="backClicked:" destination="-1" eventType="touchUpInside" id="Ivp-tF-ucr"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="תשלום" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.60000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="lhc-Mk-euQ">
+                            <rect key="frame" x="135.5" y="34" width="104" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="104" id="ga3-GM-6gK"/>
+                                <constraint firstAttribute="height" constant="23" id="i4C-GO-6CQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="22"/>
+                            <color key="textColor" red="0.85999999999999999" green="0.13" blue="0.20999999999999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="PuF-rG-QkZ" firstAttribute="leading" secondItem="AtB-Et-1jB" secondAttribute="leading" id="6sn-OG-5be"/>
+                        <constraint firstItem="lhc-Mk-euQ" firstAttribute="centerX" secondItem="AtB-Et-1jB" secondAttribute="centerX" id="J4P-Qg-anc"/>
+                        <constraint firstItem="rCe-gg-mkh" firstAttribute="leading" secondItem="AtB-Et-1jB" secondAttribute="leading" constant="20" id="NE6-ol-qrc"/>
+                        <constraint firstItem="rCe-gg-mkh" firstAttribute="top" secondItem="AtB-Et-1jB" secondAttribute="top" constant="34" id="XWf-x8-j4a"/>
+                        <constraint firstAttribute="bottom" secondItem="PuF-rG-QkZ" secondAttribute="bottom" constant="-3" id="g6C-Mq-Ovx"/>
+                        <constraint firstAttribute="height" constant="87" id="hhg-IX-yKy"/>
+                        <constraint firstItem="PuF-rG-QkZ" firstAttribute="top" secondItem="AtB-Et-1jB" secondAttribute="top" id="ij0-Pw-znJ"/>
+                        <constraint firstAttribute="trailing" secondItem="PuF-rG-QkZ" secondAttribute="trailing" id="jyv-w0-C6Q"/>
+                        <constraint firstItem="lhc-Mk-euQ" firstAttribute="top" secondItem="AtB-Et-1jB" secondAttribute="top" constant="34" id="l2k-8s-vYm"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7s-2z-ZJB">
+                    <rect key="frame" x="338" y="34" width="25" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="DIa-RS-S8k"/>
+                        <constraint firstAttribute="width" constant="25" id="H0c-AF-Zeh"/>
+                    </constraints>
+                    <state key="normal" image="MenuBlack"/>
+                    <connections>
+                        <action selector="sideMenuclicked:" destination="-1" eventType="touchUpInside" id="pSc-eA-4Pw"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cND-Xr-zuE" userLabel="MiddleView">
+                    <rect key="frame" x="0.0" y="87" width="375" height="83"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 14" translatesAutoresizingMaskIntoConstraints="NO" id="yLO-T3-rbg">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="83"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₪537" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="kFs-e8-Yfv">
+                            <rect key="frame" x="10" y="23.5" width="130" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="Vw1-t1-do8"/>
+                                <constraint firstAttribute="width" constant="130" id="vYA-HS-sp5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="36"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="payment" translatesAutoresizingMaskIntoConstraints="NO" id="hXP-Z7-2cM">
+                            <rect key="frame" x="332" y="27.5" width="28" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="7hk-sP-zL3"/>
+                                <constraint firstAttribute="width" constant="28" id="i0u-e2-OZN"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="clip" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.60000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="dDv-6C-n2j">
+                            <rect key="frame" x="222" y="19" width="94" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="QND-XY-W3d"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="gn0-aY-QrB"/>
+                                <constraint firstAttribute="width" constant="94" id="lHn-2J-OVe"/>
+                            </constraints>
+                            <string key="text">הטענה
+לפריפון</string>
+                            <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="27"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="dDv-6C-n2j" firstAttribute="centerY" secondItem="cND-Xr-zuE" secondAttribute="centerY" id="2xm-vw-pWY"/>
+                        <constraint firstItem="kFs-e8-Yfv" firstAttribute="leading" secondItem="cND-Xr-zuE" secondAttribute="leading" constant="10" id="CIa-1p-ffa"/>
+                        <constraint firstAttribute="trailing" secondItem="hXP-Z7-2cM" secondAttribute="trailing" constant="15" id="Fz2-mo-hYB"/>
+                        <constraint firstAttribute="trailing" secondItem="yLO-T3-rbg" secondAttribute="trailing" id="HNC-Cl-ouC"/>
+                        <constraint firstAttribute="bottom" secondItem="yLO-T3-rbg" secondAttribute="bottom" id="Psw-Bh-fa1"/>
+                        <constraint firstItem="kFs-e8-Yfv" firstAttribute="centerY" secondItem="cND-Xr-zuE" secondAttribute="centerY" id="QcJ-ao-jua"/>
+                        <constraint firstItem="hXP-Z7-2cM" firstAttribute="centerY" secondItem="cND-Xr-zuE" secondAttribute="centerY" id="cXf-BF-gIY"/>
+                        <constraint firstItem="hXP-Z7-2cM" firstAttribute="leading" secondItem="dDv-6C-n2j" secondAttribute="trailing" constant="16" id="d6B-QB-hRj"/>
+                        <constraint firstAttribute="height" constant="83" id="fza-x1-b32"/>
+                        <constraint firstItem="yLO-T3-rbg" firstAttribute="leading" secondItem="cND-Xr-zuE" secondAttribute="leading" id="lIx-7K-Rx7"/>
+                        <constraint firstItem="yLO-T3-rbg" firstAttribute="top" secondItem="cND-Xr-zuE" secondAttribute="top" id="lNU-Vp-9s1"/>
+                    </constraints>
+                </view>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XsN-xk-ioX">
+                    <rect key="frame" x="0.0" y="170" width="375" height="497"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="icC-Np-rBP"/>
+                    </connections>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="e7s-2z-ZJB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="34" id="3eJ-Jc-T8M"/>
+                <constraint firstAttribute="trailing" secondItem="e7s-2z-ZJB" secondAttribute="trailing" constant="12" id="5xv-tO-c0q"/>
+                <constraint firstItem="cND-Xr-zuE" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="BG8-FX-cNK"/>
+                <constraint firstItem="XsN-xk-ioX" firstAttribute="top" secondItem="cND-Xr-zuE" secondAttribute="bottom" id="BiJ-6M-L3G"/>
+                <constraint firstItem="AtB-Et-1jB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CZ5-D3-egl"/>
+                <constraint firstItem="AtB-Et-1jB" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="F8G-E0-Zf4"/>
+                <constraint firstItem="AtB-Et-1jB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="M5a-y1-rDA"/>
+                <constraint firstItem="XsN-xk-ioX" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="Z17-c9-mAV"/>
+                <constraint firstItem="cND-Xr-zuE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZZ0-9T-ELr"/>
+                <constraint firstAttribute="bottom" secondItem="XsN-xk-ioX" secondAttribute="bottom" id="d3S-Ko-nCh"/>
+                <constraint firstItem="cND-Xr-zuE" firstAttribute="top" secondItem="AtB-Et-1jB" secondAttribute="bottom" id="gfJ-FB-saR"/>
+                <constraint firstItem="XsN-xk-ioX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lWR-3s-uBi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-163.5" y="171.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BG payHistory" width="375" height="89"/>
+        <image name="MenuBlack" width="25" height="20"/>
+        <image name="Rectangle 14" width="375" height="97"/>
+        <image name="left-arrow black" width="27" height="19"/>
+        <image name="payment" width="25" height="26.5"/>
+    </resources>
+</document>

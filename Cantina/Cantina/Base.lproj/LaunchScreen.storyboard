@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qE5-Jg-RWf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGLaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="bEb-EP-OqP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Apptodate" translatesAutoresizingMaskIntoConstraints="NO" id="Fqs-E2-M38">
+                                <rect key="frame" x="129" y="468" width="62" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="c8A-To-FdK"/>
+                                    <constraint firstAttribute="width" constant="62" id="neQ-Hh-d1D"/>
+                                </constraints>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version : 39" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYq-f1-haj">
+                                <rect key="frame" x="0.0" y="548" width="320" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="6Zn-wh-G8I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="h7y-1d-DUx" firstAttribute="bottom" secondItem="Fqs-E2-M38" secondAttribute="bottom" constant="36" id="17R-D1-lcz"/>
+                            <constraint firstItem="WYq-f1-haj" firstAttribute="width" secondItem="qE5-Jg-RWf" secondAttribute="width" id="2K4-Gi-ZcD"/>
+                            <constraint firstItem="Fqs-E2-M38" firstAttribute="centerX" secondItem="h7y-1d-DUx" secondAttribute="centerX" id="34X-XN-Ia8"/>
+                            <constraint firstAttribute="bottom" secondItem="bEb-EP-OqP" secondAttribute="bottom" id="5KF-7u-aMU"/>
+                            <constraint firstItem="h7y-1d-DUx" firstAttribute="bottom" secondItem="WYq-f1-haj" secondAttribute="bottom" id="MDT-12-ITb"/>
+                            <constraint firstItem="WYq-f1-haj" firstAttribute="centerX" secondItem="h7y-1d-DUx" secondAttribute="centerX" id="Ogn-Vl-32w"/>
+                            <constraint firstItem="bEb-EP-OqP" firstAttribute="top" secondItem="qE5-Jg-RWf" secondAttribute="top" id="fe9-wJ-nkJ"/>
+                            <constraint firstItem="bEb-EP-OqP" firstAttribute="leading" secondItem="qE5-Jg-RWf" secondAttribute="leading" id="og3-tx-uLM"/>
+                            <constraint firstAttribute="trailing" secondItem="bEb-EP-OqP" secondAttribute="trailing" id="p5a-MT-7lw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h7y-1d-DUx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-750" y="154"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Apptodate" width="62" height="64"/>
+        <image name="BGLaunchScreen" width="375" height="667"/>
+    </resources>
+</document>

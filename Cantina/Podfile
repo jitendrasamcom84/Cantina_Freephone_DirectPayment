@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'Cantina' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+   pod 'Firebase/Crash'
+   pod 'Firebase/Core'
+   pod 'Firebase/Auth'
+   pod 'Firebase/Messaging'
+   pod 'Alamofire'
+   pod 'ReachabilitySwift'
+   pod 'AlamofireNetworkActivityLogger'
+   pod 'MagicalRecord'
+   pod 'FastEasyMapping'
+   pod 'KGModal'
+   pod 'IQKeyboardManager'
+   pod 'UITextView+Placeholder'
+   pod 'ActionSheetPicker-3.0'
+   pod 'FSMediaPicker'
+   pod 'NVActivityIndicatorView'
+   pod 'KXHtmlLabel'
+   pod 'IHKeyboardAvoiding'
+   pod 'AppVersionMonitor'
+  
+
+end
